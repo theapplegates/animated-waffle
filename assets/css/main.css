@@ -1,0 +1,118 @@
+/* Global Styling - Theme, Font, Overflow, Padding, Word-Wrap, etc */
+    html, 
+    body {
+        color: #c5c5c5;
+        background-color: #282c35;
+        font-family: 'Merriweather';
+        padding-left: 2%;
+        padding-right: 2%;
+        word-wrap: break-word;
+        overflow-x: hidden;
+        font-display: block;
+    }
+
+/*Tag Styling - h1, img, a, etc*/
+    /* Heading Styling */
+    h1,h2,h3 { line-height: 1.2 }
+    h2 {
+        font-size: 2em; font-family: 'Inter';
+    }
+    /* Image Styling */
+    img { 
+        display: block;
+        width: 500px;
+        margin: 20px auto;
+        max-width: 100%;
+        height: auto;
+        padding-bottom: 2vh;
+        padding-top: 2vh;
+    }
+
+    /* List Styling - Ul, Li */
+    ul {
+        margin-left: 0;
+        padding-left: 0;
+        list-style-type: none;
+    }
+    li::before {
+        content: "#";
+        font-size: 2em;
+        padding-right: 0.5em;
+        color: tomato;
+    }
+
+    h2::before {
+        content: "#";
+        font-size: 1em;
+        padding-right: 0.5em;
+        color: tomato;
+    }
+
+    /* Link Styling */
+    a {
+        color:  #c2c2c2;
+        text-decoration: underline;
+        text-decoration-color: rgb(100, 100, 100);
+    }
+    a:hover {
+        text-decoration: none;
+    }
+
+    /* Code Block Styling */
+    pre {
+        display: flex;
+        background-color: #373738;
+        border-radius: 10px;
+        padding: 1.5em;
+        flex-wrap: wrap;
+        max-width: 100%;
+        font-size: 16px;
+        white-space: pre-wrap;
+    }
+    blockquote {
+        background: #2c2e35;
+        border-left: 10px solid #ffffff;
+        margin: 1.5em 10px;
+        padding: 0.5em 10px;
+    }
+
+/* Utility Classes, Font sizing, color */
+        .md { font-size: 1.5em; }
+        .lg { font-size: 2.5em; font-family: 'Inter'; text-align: center;}
+        .xm { font-size: 1.8em; }
+        .date { font-size: 18px; }
+        .xs { font-size: 30px; }
+
+        .underline { text-decoration: underline; }
+        .u-gray { color:  #c2c2c2; text-decoration: underline; text-decoration-color: rgb(100, 100, 100); }
+        .u-red { text-decoration-color: red; }
+        .text-none { text-decoration: none; }
+    
+        .red { color: red; }
+        .blue { color: rgb(90, 187, 106); }
+        .neon { color: #94a3fa; }
+    
+        .pt-1vh {padding-top: 1vh;}
+        .pb { padding-bottom: 0.5vh; }
+
+/*Element Styling*/
+    .margin-main {
+        margin: 40px auto;
+        max-width: 700px;
+        line-height: 1.6;
+        padding: 0 10px;
+    }
+    
+    .post-item {
+        padding: 15px;
+    }
+
+    .title {
+        font-family: 'Inter';
+    }
+
+    .center {
+        text-align:center;
+        margin-bottom: 50px;
+    }
+

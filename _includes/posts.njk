@@ -1,0 +1,22 @@
+---
+layout: layout
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <div class="margin-main pt-1vh">
+        <div class="lg underline u-red">{{ title }}</div>
+        <p class="center date pb"><strong>{{ date | readableDate}}</strong></p>
+      <div class="date content">{{ content | safe }}</div>
+     
+      <!-- 
+        Comments go Here
+      -->
+      
+      <div class="back-link">
+        <a href="/">← Back</a>
+      </div>
+    </div>
+  </body>
+</html>
