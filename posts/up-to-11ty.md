@@ -9,8 +9,8 @@ date: 2021-01-01
 **Up To 11ty** theme docs and tutorial, [https://sysnomid.com/posts/upto11ty/](https://sysnomid.com/posts/upto11ty/)
 
 <picture>
-  <source type="image/avif" srcset="/img/b499eff3-600.avif 600w, /img/b499eff3-1200.avif 1200w, /img/b499eff3-1800.avif 1800w">
-  <source type="image/webp" srcset="/img/b499eff3-600.webp 600w, /img/b499eff3-1200.webp 1200w, /img/b499eff3-1800.webp 1800w">
-  <source type="image/jpeg" srcset="/img/b499eff3-600.jpeg 600w, /img/b499eff3-1200.jpeg 1200w, /img/b499eff3-1800.jpeg 1800w">
-  <img src="/img/b499eff3-600.jpeg" width="600" height="734" alt="A bomb ass nebula" loading="lazy" decoding="async">
+  <source type="image/avif" srcset="/assets/img/b499eff3-600.avif 600w, /assets/img/b499eff3-1200.avif 1200w, /assets/img/b499eff3-1800.avif 1800w">
+  <source type="image/webp" srcset="/assets/img/b499eff3-600.webp 600w, /assets/img/b499eff3-1200.webp 1200w, /assets/img/b499eff3-1800.webp 1800w">
+  <source type="image/jpeg" srcset="/assets/img/b499eff3-600.jpeg 600w, /assets/img/b499eff3-1200.jpeg 1200w, /assets/img/b499eff3-1800.jpeg 1800w">
+  <img src="/assets/img/b499eff3-600.jpeg" width="600" height="734" alt="A bomb ass nebula" loading="lazy" decoding="async">
 </picture>
